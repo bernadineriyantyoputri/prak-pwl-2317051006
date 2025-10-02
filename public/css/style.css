@@ -1,0 +1,33 @@
+:root {
+    --gray-all: #6c757d; /* abu-abu medium elegan */
+}
+
+/* Navbar & Footer */
+.bg-custom-gray {
+    background-color: var(--gray-all) !important;
+    color: #fff !important;
+}
+
+/* Card */
+.card-custom {
+    background-color: var(--gray-all) !important;
+    color: #fff; /* teks tetap kebaca */
+}
+
+/* Card Header */
+.card-header-custom {
+    background-color: var(--gray-all) !important;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Tombol */
+.btn-custom {
+    background-color: var(--gray-all) !important;
+    color: #fff !important;
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #5a6268 !important; /* abu sedikit lebih gelap */
+    color: #fff !important;
+}
