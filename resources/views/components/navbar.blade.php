@@ -6,13 +6,41 @@
             aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url('/user') }}">
+            <i class="bi bi-people-fill"></i> Daftar User
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url('/user/create') }}">
+            <i class="bi bi-person-plus-fill"></i> Tambah User
+          </a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url('/matakuliah') }}">
+            <i class="bi bi-journal-text"></i> Daftar Mata Kuliah
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url('/matakuliah/create') }}">
+            <i class="bi bi-book-half"></i> Tambah Mata Kuliah
+          </a>
+        </li>
+
         <li class="nav-item">
           <a class="nav-link" href="{{ url('/about') }}">
             <i class="bi bi-info-circle-fill"></i> Tentang
           </a>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" href="{{ url('/contact') }}">
             <i class="bi bi-envelope-fill"></i> Kontak

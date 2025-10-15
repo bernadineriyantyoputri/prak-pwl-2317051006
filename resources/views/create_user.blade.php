@@ -9,7 +9,7 @@
         <p class="text-muted">Silahkan Isi Data Pengguna Anda</p>
         
         <form action="{{ route('user.store') }}" method="POST">
-             @csrf
+            @csrf
 
             <label for="nama" class="form-label">Nama:</label>
             <input type="text" id="nama" name="nama" class="form-control">
@@ -20,7 +20,7 @@
             <label for="kelas_id" class="form-label">Kelas:</label>
             <select name="kelas_id" id="kelas_id" class="form-select">
                 @foreach ($kelas as $kelasItem)
-                    <option value="{{ $kelasItem->id }}">{{ $kelasItem->nama_kelas }}</option>
+                <option value="{{ $kelasItem->id }}">{{ $kelasItem->nama_kelas }}</option>
                 @endforeach
             </select><br><br>
             
